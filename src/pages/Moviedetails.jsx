@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
-import { removeMovie } from "../store/reducers/MovieSlice";
 import Loading from "../components/Loading";
 import HorizontalCards from "../components/partial/HorizontalCards";
-import { asyncLoadMovie } from "../Store/actions/MovieActions";
+import { asyncLoadMovie, removeMovie } from "../Store/actions/MovieActions";
 
 const Moviedetails = () => {
   const { pathname } = useLocation();
