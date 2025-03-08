@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Sidenav = () => {
@@ -7,7 +7,7 @@ const Sidenav = () => {
     <div className="w-[20%] h-full border-r-2 border-zinc-400 p-3">
       <h1 className="text-2xl text-white font-bold ">
         <i className="text-[#FF0000] ri-tv-fill mr-2"></i>
-        <span>Moviess</span>
+        <span>DexMov</span>
       </h1>
       <nav className="flex flex-col text-zinc-400 text-xl gap-3">
         <h1 className="text-white font-semibold text-xl mt-10 mb-5">
