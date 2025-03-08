@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import { asyncloadTv } from "../store/actions/Tvactions";
-import { removeTv } from "../store/reducers/TvSlice";
+import { removeTv } from "../store/reducers/Tvslice";
 import Loading from "../components/Loading";
 import HorizontalCards from "../components/partial/HorizontalCards";
 
