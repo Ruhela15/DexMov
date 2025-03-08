@@ -1,5 +1,5 @@
 import axios from "../../utils/axios";
-export { removeTv } from "/src/store/reducers/TvSlice";
+export { removeTv } from "../reducers/TvSlice";
 import { loadTv } from "../reducers/TvSlice";
 
 
