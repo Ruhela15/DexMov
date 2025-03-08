@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(250, 3, 3, 0.153);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: red;
+    border-radius: 10px;
+}
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .custom-select select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    color:black;
+    background-color: gray;
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; 
+  }
+  
+  .custom-select select:focus {
+    outline: none;
+  }
+  
+  /* Arrow icon */
+  .custom-select select::-ms-expand {
+    display:none; /* Remove default arrow icon */
+  }
+  
+  .custom-select::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f7f2f2; 
+  }
