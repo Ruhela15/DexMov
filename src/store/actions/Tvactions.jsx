@@ -3,6 +3,7 @@ export { removeTv } from "../reducers/TvSlice.jsx";
 import { loadTv } from "../reducers/TvSlice.jsx";
 
 
+
 export const asyncloadTv = (id) => async (dispatch, getstate) => {
   try {
     const detail = await axios.get(`/tv/${id}`);
